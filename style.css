@@ -1,0 +1,269 @@
+
+
+                      //v.1.2
+/* potreba doresit pozicovani + logo !!!! */
+
+/*
+  svetle seda - #CCCCCC
+  tmave seda - #BBBBBB
+  ruzova - #FF99CC
+  svetle zelena - #58D68D
+  tmave zelena - #28B463 
+*/
+
+@media only screen and (max-width: 400px){
+    #obalovaci{width: 100%;}
+    #levy{display: none;}
+    #prihlaseni{display: none;}
+    #prihlaseniTab{display: none;}
+    #zapati{display: none;}
+    #pravy{width: 100%;}
+    #logoMobil{width: 100%;}
+    #logoMobilPozadi{
+     position: relative;
+     width: 100vw;
+     height: auto;
+     background: no-repeat;
+     text-align: center;  
+     background-color: #cccccc;     
+ }  iframe{width: 95vw;}
+    input.tlacitko{width: 80vw;margin-bottom: 5vw; height: 12vw;font-size: 1.5em;}
+    #menuMobil {    
+        position: relative;  
+        width: 100vw;  
+        background-color: #cccccc;
+    }
+    .myMenuMobil li {
+         display: block;
+         list-style-type: none;
+         text-align: center;
+         font-size: 1.8em ;         
+         margin-top: 2vw;              
+      }
+    .myMenuMobil li a:link, .myMenuMobil li a:visited {
+        text-decoration: none;
+        color: white;
+        display: block;
+        height: 12vw;             
+        width: 100vw;
+        background-color:#cc9900;
+        margin-top:2vw;   
+        box-shadow: black 0px 0px 3px;
+      }
+    .myMenuMobil li a:hover {
+        background-color:#ff99cc;	
+      } 
+    #napisInf{width: 93vw;}
+    #napisText{width: 93vw;}
+    input{font-size: 1.5em;}
+    #prihlaseniMobil{
+        background-color:  #cccccc;
+        margin-top: 2vw;
+    }
+    #prihlas{
+        width:94vw;           
+        height:auto; 
+        margin: 2vw;
+    }
+    textArea{font-size: 1.3em;}
+    
+}
+
+@media only screen and (min-width: 401px) and (max-width: 800px){
+    #obalovaci{width: 100%;}
+    #levy{display: none;}
+    #prihlaseni{display: none;}
+    #pravy{width: 100%;}
+    #logoMobil{width: 50vw;float: left;}
+    #prihlaseniMobil{display: none;}
+    
+    #logoMobilPozadi{
+     position: relative;
+     width: 100vw;
+     height: auto;
+     background: no-repeat;
+     text-align: center;  
+     background-color: #cccccc;     
+ }
+    #prihlaseniTab{
+        background-color: #bbbbbb;
+        margin-top: 2vw;
+        width: 50vw;
+        margin-left: 50vw;
+    }
+    #prihlas{
+        width:30vw;           
+        height:auto; 
+        margin: 2vw;
+    }
+    input.tlacitko{width: 40vw;margin-bottom: 5vw; height: 6vw;font-size: 1.5em;}
+    #menuMobil {    
+        position: relative;  
+        width: 100%;  
+        background-color:  #bbbbbb; 
+    }
+    .myMenuMobil li {
+         display: block;         
+         list-style-type: none;
+         text-align: center;
+         font-size: 1.8em ;         
+         margin-top: 2vw;              
+      }
+    .myMenuMobil li a:link, .myMenuMobil li a:visited {
+        text-decoration: none;
+        color: white;
+        display: block;
+        height: 12vw;             
+        width: 100vw;
+        background-color:#bbbbbb;
+        margin-top:2vw;   
+        box-shadow: black 0px 0px 3px;
+      }
+    .myMenuMobil li a:hover {
+        background-color:#ff99cc;	
+      } 
+      iframe{width: 93vw;}
+    #napisInf{width: 93vw;}
+    #napisText{width: 93vw;}
+    input{font-size: 1.5em;}
+    textArea{font-size: 1.3em;}
+    
+}
+
+
+@media only screen and (min-width: 801px){
+    #obalovaci{width: 96%;} 
+    #pravy{width: 66.5%}
+    iframe{width: 57vw;}
+    input.tlacitko {
+        width: 10vw;
+        height: auto;
+        font-size: 1.3em;
+    }
+    input.tlacitko:hover{
+        width: 10vw;
+        height: auto;
+        font-size: 1.3em;
+    }
+    #prihlaseniMobil{display: none;}
+    #menuMobil{display: none;}
+    #logoMobilPozadi{display: none;}
+    #napisInf{width: 50%;}
+    #napisText{width: 100%;}
+    input{
+        margin-left: 0.5vw;
+        margin-right: 0.5vw;
+        font-size: 1em;  
+    }
+    #prihlaseni{
+        background-color:  #bbbbbb;
+        margin: 0;
+        padding-top: 1px;
+    }
+    #prihlas{
+        width:27%;           
+        height:auto;    
+    }
+    textArea{font-size: 1.2em;}
+    #menu {    
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  top: 290px;
+  position: fixed;  
+  width: 30vw;  
+  background-color: #bbbbbb;
+}
+    .myMenu li {
+         float: left;
+         display: block;
+         list-style-type: none;
+         text-align: center;
+         font-size: 1.75em ;
+       
+         
+      }
+    .myMenu li a:link, .myMenu li a:visited {
+        text-decoration: none;
+        color: white;
+        display: block;
+        line-height: 3.5vw;             
+        width: 30vw;
+        background-color:#bbbbbb;
+        margin-top:0.5vw;   
+        margin-top: 0.5vw;
+        box-shadow: black 0px 0px 3px;
+      }
+    .myMenu li a:hover {
+        background-color:#ff99cc;	
+      } 
+}
+    
+body {   
+    padding: 0;
+    margin: auto;
+    background-color:  #bbbbbb;
+}
+#obalovaci{margin: auto;} 
+#levy{   
+    position: fixed;
+    width: 30vw;
+    height: 100%;
+    background-color: #bbbbb;
+    padding:0;
+    margin: auto;    
+}
+#text{
+    background-color:  #bbbbbb;
+    width: 100%;
+    height: auto;
+    
+}
+#zapati{
+     position: relative;
+     width: 100%;
+     height: 2vw;
+     background-color: #bbbbbb;    
+     font-size: 2vw;
+     padding-top: 1vw;
+     padding-bottom: 1vw;
+     margin-top: 2%;
+ }
+#pravy{ float: right;
+    padding-left: 2%;
+     position: relative;
+}
+#paddin{
+     padding-left: 3vw;
+     padding-right: 3vw;   
+     padding-bottom: 1vw;
+ }
+#levyVrsek{
+     position: fixed;
+     width: 30vw;
+     height: 290px;
+     background: no-repeat;
+     text-align: center;  
+     background-color: #bbbbbb;
+     
+ }
+#logo{
+    width: 30vw;
+    
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+input.tlacitko {
+    color: white;
+    background-color: #58D68D; 
+    border: none;
+    box-shadow: black 1px 2px 3px;
+}
+input.tlacitko:hover{
+    background-color: #28B463;
+}
+
+#odstavec{margin-left: 2vw;}
+h2{padding: 0;margin: 0;}
